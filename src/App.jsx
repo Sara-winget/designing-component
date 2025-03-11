@@ -36,9 +36,9 @@ function App() {
 
   return(
 
-    <>
+    <div style={{display:'flex',justifyContent:'center',gap:'40px' ,border:'5px solid black', height:'100vh', alignItems:'center', textAlign:'center'}}>
   {books.map((item,ind)=><Bookcard key={ind} {...item}/>)}
-  </>
+  </div>
   ) 
 }
 
